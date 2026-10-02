@@ -1,3 +1,7 @@
+## Short description
+
+Fork FluentFTP, plně spravované FTP/FTPS klientské knihovny pro .NET. Obsahuje klienta, podporu TLS přes BouncyCastle a rozsáhlou dokumentaci. Kód je cizí, ve složce ObsoleteDueToAI.
+
 <p align="center">
 <img src="https://github.com/robinrodricks/FluentFTP/raw/master/.github/logo-new.png" alt="FluentFTP" />
 </p>
