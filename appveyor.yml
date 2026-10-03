@@ -5,13 +5,13 @@ image: Visual Studio 2017
 configuration: Release
 
 before_build:
-- cmd: msbuild FluentFTP.sln /t:Restore
+- cmd: msbuild FluentFTP.slnx /t:Restore
 
 build:
   verbosity: minimal
 
 after_build:
-- cmd: msbuild FluentFTP.sln /t:FluentFTP:Pack /p:Configuration=Release
+- cmd: msbuild FluentFTP.slnx /t:FluentFTP:Pack /p:Configuration=Release
 
 test_script:
 - cmd: >-
