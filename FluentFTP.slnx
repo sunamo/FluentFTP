@@ -1,0 +1,31 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Examples/">
+    <Project Path="FluentFTP.AotExample/FluentFTP.AotExamples.csproj" />
+    <Project Path="FluentFTP.CSharpExamples/FluentFTP.CSharpExamples.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="FluentFTP.VBExamples/FluentFTP.VBExamples.vbproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/Libraries/">
+    <Project Path="FluentFTP.BouncyCastle/FluentFTP.BouncyCastle.csproj" />
+    <Project Path="FluentFTP.Logging/FluentFTP.Logging.csproj" />
+    <Project Path="FluentFTP/FluentFTP.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/Powershell/">
+    <File Path="Powershell/FluentFTP.ps1" />
+  </Folder>
+  <Folder Name="/Testing/">
+    <Project Path="FluentFTP.Tests/FluentFTP.Tests.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="FluentFTP.Xunit/FluentFTP.Xunit.csproj" />
+  </Folder>
+</Solution>
