@@ -1,17 +1,26 @@
 ---
-schema_version: 6
+schema_version: 11
 type: forked-notmine-library
+category_override: none
 file_count: 549
+file_extensions: cs:440, vb:29, noext:13, png:13, yml:9, conf:8, md:8, sh:8, csproj:7, bat:3, snk:3, txt:2, properties:1, ps1:1, py:1, slnx:1, template:1, vbproj:1, xml:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 93
+total_lines: not run
+metrics_lm: 2026-10-01 16:46:29
 move_to_legacy_percent: 70
-generated_date: 2026-10-01
-generated_time: 16:46:29
+description_updated: 2026-10-01
+links_updated: 2026-10-01
 github_source_url: https://github.com/robinrodricks/FluentFTP
-last_build_ok: 
-last_build_date: 
-last_tests_run_date: 
-covered_lines: 
-total_lines: 
+origin_status: found
+origin_checked: 2026-10-01
+article_source_url: not run
+article_status: pending
+article_checked: not run
+last_build_ok: not run
+last_build_date: not run
+last_tests_run_date: not run
+covered_lines: not run
 ---
 
 ## Description
